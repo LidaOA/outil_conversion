@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowConversion</class>
+ <widget class="QWidget" name="WindowConversion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WindowConversion</string>
+  </property>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>40</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Conversion</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_convert">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>150</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Convertir</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="widgets_devise_2">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>200</y>
+     <width>256</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="currentRow">
+    <number>-1</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>Euro</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Franc Suisse</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Couronne Suédoise	</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dollar Australien</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dollar US</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dollar Canadien</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Franc CFA BCEAO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Franc CFA BEAC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Franc Guinéen</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cedi (Ghana) </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Naira (Nigéria)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dirham Marocain</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dinars algériens</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dirham UAE</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Riyal (Arabie Saoudite)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Yuan Renminbi (Chine)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Yen (Japon)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Real Brésilien</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Peso Argentin</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bolivar (Vénézuela)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Livre Turque</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rouble (Russie)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Livre Sterling (UK)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rupee (Inde)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dirham (Émirats)</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_out">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>220</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Devise de sortie</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="widgets_devise_1">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>80</y>
+     <width>256</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="currentRow">
+    <number>-1</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>Euro</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Franc Suisse</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Couronne Suédoise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dollar Australien</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dollar US</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dollar Canadien</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Franc CFA BCEAO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Franc CFA BEAC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Franc Guinéen</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cedi (Ghana) </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Naira (Nigéria)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dirham Marocain</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dinars algériens</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dirham UAE</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Riyal (Arabie Saoudite)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Yuan Renminbi (Chine)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Yen (Japon)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Real Brésilien</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Peso Argentin</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bolivar (Vénézuela)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Livre Turque</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rouble (Russie)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Livre Sterling (UK)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rupee (Inde)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dirham (Émirats)</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_rate">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>280</y>
+     <width>531</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Taux de conversion : Euro</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_in">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>100</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Devise d'entrée</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="edit_code1">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>90</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="cursor_1">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>90</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <double>100000.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="edit_code2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>220</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="edit_out">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>330</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
