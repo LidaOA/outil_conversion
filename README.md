@@ -16,9 +16,10 @@ About 15 currencies are allowed.
 
 ## STEPS
 
-Enter this command line in your prompt
+Go to any folder and enter these command lines in your prompt
 
 ```
+cd myFolder
 git clone https://github.com/LidaOA/outil_conversion.git
 ```
 
